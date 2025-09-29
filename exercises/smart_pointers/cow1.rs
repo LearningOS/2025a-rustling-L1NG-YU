@@ -42,6 +42,7 @@ mod tests {
         }
     }
 
+    
     #[test]
     fn reference_no_mutation() -> Result<(), &'static str> {
         // No clone occurs because `input` doesn't need to be mutated.
